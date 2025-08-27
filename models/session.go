@@ -6,5 +6,5 @@ import (
 
 type Session struct {
 	gorm.Model
-	url []string
+	Url string
 }
